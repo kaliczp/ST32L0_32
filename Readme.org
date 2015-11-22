@@ -1,0 +1,41 @@
+#+TITLE: STM32L0 test
+#+DATE: <2015-11-22 v>
+#+AUTHOR: Kalicz Péter
+#+EMAIL: kaliczp@emk.nyme.hu
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
+#+CREATOR: Emacs 24.4.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+
+* Qestions
+
+- If I use internal temperature sensor to estimate the ambient
+  environment temperature is it necessary to use ferrite bead?
+- How connect design to ST-LINK?
+- Which pins are SPI capable?
+- Which pins are (low power) USART capable?
+- How can I set up external interrupt?
+- Type an voltage characteristic of Li-ion primary battery?
+
+* Plan
+
+** Power
+Power source from primary Li-ion battery directly (3.2 V?) or two
+rechargeable Ni-MH battery (2.4 V).
+
+** RTC
+Measure time with RTC. Calibrate RTC crystal with internal
+thermometer. Measure bi-hourly.
+
+** Data storage
+Use SPI EEPROM as a storage place. Store BCD data.
+
+** Sensor
+Reed relay as a data source with interrupt. Permanent magnet (super)
+on tiping bucket.
