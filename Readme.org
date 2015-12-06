@@ -21,13 +21,18 @@
 - Which pins are SPI capable?
 - Which pins are (low power) USART capable?
 - How can I set up external interrupt?
-- Type an voltage characteristic of Li-ion primary battery?
+- Type and voltage characteristic of Li-ion primary battery?
+  3.6V Lithium Thionyl Chloride (Li-SOCl2) Batterie
+  XENO XL-060F [[http://www.xenoenergy.com/eng/prod/genaral03.asp]]
+  2.4 Ah at 2mA
+- STM32L0 debug OK?
 
 * Plan
 
 ** Power
-Power source from primary Li-ion battery directly (3.2 V?) or two
+Power source from primary Li-ion battery directly (3.6 V) or two
 rechargeable Ni-MH battery (2.4 V).
+Li-ion primary battery is OK. E.g. in the Cube example.
 
 ** RTC
 Measure time with RTC. Calibrate RTC crystal with internal
