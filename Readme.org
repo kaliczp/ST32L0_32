@@ -18,6 +18,7 @@
 - If I use internal temperature sensor to estimate the ambient
   environment temperature is it necessary to use ferrite bead?
 - How connect design to ST-LINK?
+  HEADER8_2
 - Which pins are SPI capable?
 - Which pins are (low power) USART capable?
 - How can I set up external interrupt?
@@ -37,9 +38,11 @@ Li-ion primary battery is OK. E.g. in the Cube example.
 ** RTC
 Measure time with RTC. Calibrate RTC crystal with internal
 thermometer. Measure bi-hourly.
+0603 size capacitors 2-12 nF
 
 ** Data storage
 Use SPI EEPROM as a storage place. Store BCD data.
+100k resistor (0805 or 2012 metric) Available.
 
 ** Sensor
 Reed relay as a data source with interrupt. Permanent magnet (super)
