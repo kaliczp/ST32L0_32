@@ -17,16 +17,22 @@
 
 - If I use internal temperature sensor to estimate the ambient
   environment temperature is it necessary to use ferrite bead?
+  I will use it.
 - How connect design to ST-LINK?
-  HEADER8_2
+  I will use HEADER10_2 more-or-less standard
 - Which pins are SPI capable?
+  PB3:PB5
 - Which pins are (low power) USART capable?
+  STM32L051K8Tx has no LPUART. PB6:PB7 seems to best.
+  In the case hardware flow control PA8:PA12
 - How can I set up external interrupt?
+  PA0 or any GPIO_EXTI pins
 - Type and voltage characteristic of Li-ion primary battery?
   3.6V Lithium Thionyl Chloride (Li-SOCl2) Batterie
   XENO XL-060F [[http://www.xenoenergy.com/eng/prod/genaral03.asp]]
   2.4 Ah at 2mA
 - STM32L0 debug OK?
+  Through ARM SWDI works well.
 
 * Plan
 
@@ -44,6 +50,13 @@ thermometer. Measure bi-hourly.
 Use SPI EEPROM as a storage place. Store BCD data.
 100k resistor (0805 or 2012 metric) Available.
 
-** Sensor
+** Sensors
+
+*** Reed relay
 Reed relay as a data source with interrupt. Permanent magnet (super)
 on tiping bucket.
+
+*** Weighing sensor
+1 kg
+
+*** Soil temperature meter
