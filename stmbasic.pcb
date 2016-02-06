@@ -3,12 +3,12 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["" 6000.00mil 5000.00mil]
+PCB["" 50.0000mm 50.0000mm]
 
 Grid[984.251969 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
-DRC[10.00mil 10.00mil 10.00mil 10.00mil 15.00mil 10.00mil]
+DRC[0.1500mm 10.00mil 0.1500mm 0.2000mm 0.3000mm 0.1500mm]
 Flags("nameonpcb,uniquename,clearnew,snappin,locknames")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,12.00mil,69.00mil,23.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
@@ -831,7 +831,7 @@ Element["" "ST_LQFP32_7.fp" "U1" "unknown" 22.0560mm 9.2860mm -20.00mil -60.00mi
 
 	)
 
-Element["" "0.1_inch_2pin" "CONN1" "unknown" 29.4220mm 5.4760mm 176.00mil -24.00mil 0 100 ""]
+Element["" "0.1_inch_2pin" "CONN1" "unknown" 34.9220mm 4.7260mm 176.00mil -24.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 70.00mil 30.00mil 70.00mil 38.00mil "1" "1" "edge2"]
 	Pin[100.00mil 0.0000 70.00mil 30.00mil 70.00mil 38.00mil "2" "2" "edge2"]
@@ -937,7 +937,7 @@ Element["" "0805.fp" "C2" "100_nF" 17.2500mm 4.5000mm 31.50mil 31.50mil 2 100 ""
 
 	)
 
-Element["" "HEADER10_2.fp" "CONN2" "unknown" 37.5000mm 15.5800mm 50.00mil 50.00mil 1 100 ""]
+Element["" "HEADER10_2.fp" "CONN2" "unknown" 37.5000mm 19.0800mm 50.00mil 50.00mil 1 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	Pin[-100.00mil 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
@@ -957,6 +957,37 @@ Element["" "HEADER10_2.fp" "CONN2" "unknown" 37.5000mm 15.5800mm 50.00mil 50.00m
 	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
 
 	)
+Rat[28.2002mm 16.1502mm 0 26.1842mm 14.7069mm 0  ""]
+Rat[26.1842mm 14.7069mm 0 24.8561mm 13.8859mm 0  ""]
+Rat[24.8561mm 13.8859mm 0 16.2500mm 15.4002mm 0  ""]
+Rat[16.2500mm 15.4002mm 0 16.1499mm 17.4002mm 0  ""]
+Rat[16.2500mm 15.4002mm 0 16.0000mm 13.1502mm 0  ""]
+Rat[16.0000mm 13.1502mm 0 11.6120mm 11.7010mm 0  ""]
+Rat[11.6120mm 11.7010mm 0 11.6120mm 3.5730mm 0  ""]
+Rat[11.6120mm 3.5730mm 0 17.8158mm 3.7931mm 0  ""]
+Rat[17.8158mm 3.7931mm 0 19.2559mm 4.6861mm 0  ""]
+Rat[28.2002mm 16.1502mm 0 37.5000mm 16.5400mm 5  ""]
+Rat[37.5000mm 16.5400mm 5 37.5000mm 14.0000mm 5  ""]
+Rat[37.5000mm 14.0000mm 5 37.5000mm 8.9200mm 5  ""]
+Rat[37.5000mm 8.9200mm 5 37.4620mm 4.7260mm 5  ""]
+Rat[12.9120mm 3.5730mm 0 12.9120mm 5.9205mm 0  ""]
+Rat[12.9120mm 5.9205mm 0 17.4561mm 7.2860mm 0  ""]
+Rat[12.9120mm 11.7010mm 0 12.9120mm 9.7305mm 0  ""]
+Rat[12.9120mm 9.7305mm 0 17.4561mm 8.0861mm 0  ""]
+Rat[14.2002mm 13.1502mm 0 17.4561mm 8.8859mm 0  ""]
+Rat[17.4561mm 8.8859mm 0 34.9600mm 8.9200mm 5  ""]
+Rat[14.3501mm 17.4002mm 0 14.4502mm 15.4002mm 0  ""]
+Rat[14.3501mm 17.4002mm 0 14.4502mm 19.4002mm 0  ""]
+Rat[14.4502mm 15.4002mm 0 17.4561mm 9.6860mm 0  ""]
+Rat[34.9600mm 19.0800mm 5 26.6559mm 7.2860mm 0  ""]
+Rat[34.9600mm 16.5400mm 5 26.6559mm 6.4859mm 0  ""]
+Rat[30.0000mm 16.1502mm 0 27.3158mm 523.35mil 0  ""]
+Rat[27.3158mm 523.35mil 0 26.6559mm 12.0858mm 0  ""]
+Rat[30.0000mm 16.1502mm 0 37.5000mm 19.0800mm 5  ""]
+Rat[26.6559mm 12.0858mm 0 17.4561mm 6.4862mm 0  ""]
+Rat[17.4561mm 6.4862mm 0 16.6842mm 5.2069mm 0  ""]
+Rat[26.6559mm 12.0858mm 0 34.9220mm 4.7260mm 5  ""]
+Rat[27.3158mm 523.35mil 0 16.2500mm 19.4002mm 0  ""]
 Layer(1 "top")
 (
 )
