@@ -190,3 +190,12 @@ refdes=CONN2
 T 47400 47200 5 10 0 1 0 0 1
 footprint=HEADER10_2.fp
 }
+C 57700 51900 1 0 0 M95512.sym
+{
+T 58400 53600 5 10 1 1 0 0 1
+refdes=U3
+T 57700 54500 5 10 0 0 0 0 1
+device=M95512
+T 57700 54250 5 10 0 0 0 0 1
+footprint=SO8clear
+}

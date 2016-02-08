@@ -820,7 +820,7 @@ Element["" "HEADER10_2.fp" "CONN2" "unknown" 1.7100mm 7.1700mm 5.4800mm 6.9800mm
 
 	)
 
-Element["" "ST_LQFP32_7.fp" "U1" "unknown" 24.0000mm 9.2500mm -20.00mil -60.00mil 0 100 ""]
+Element["" "ST_LQFP32_7.fp" "U1" "unknown" 24.0000mm 11.0000mm -20.00mil -60.00mil 0 100 ""]
 (
 	Pad[-181.10mil -110.23mil -153.54mil -110.23mil 19.69mil 30.00mil 18.74mil "VDD_2" "1" "square"]
 	Pad[-181.10mil -2.0000mm -153.54mil -2.0000mm 19.69mil 30.00mil 18.74mil "PC14-OSC32_IN" "2" "square"]
@@ -863,7 +863,7 @@ Element["" "ST_LQFP32_7.fp" "U1" "unknown" 24.0000mm 9.2500mm -20.00mil -60.00mi
 
 	)
 
-Element["" "abs25.fp" "U2" "32.768_kHz" 12.0620mm 7.7895mm 31.50mil 31.50mil 2 100 ""]
+Element["" "abs25.fp" "U2" "32.768_kHz" 12.0620mm 9.5395mm 31.50mil 31.50mil 2 100 ""]
 (
 	Pad[110.00mil -75.00mil 110.00mil -50.00mil 50.00mil 20.00mil 68.99mil "1" "1" "square"]
 	Pad[-110.00mil -75.00mil -110.00mil -50.00mil 50.00mil 20.00mil 68.99mil "2" "2" "square"]
@@ -881,21 +881,21 @@ Element["" "abs25.fp" "U2" "32.768_kHz" 12.0620mm 7.7895mm 31.50mil 31.50mil 2 1
 
 	)
 
-Element["" "0603.fp" "C8" "6.8_pF" 14.2060mm 3.6620mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603.fp" "C8" "6.8_pF" 14.2060mm 5.4120mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
 
 	)
 
-Element["" "0603.fp" "C7" "6.8_pF" 14.2060mm 11.7900mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603.fp" "C7" "6.8_pF" 14.2060mm 13.5400mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
 
 	)
 
-Element["" "0805.fp" "L1" "unknown" 17.0441mm 11.2140mm 31.50mil 31.50mil 2 100 ""]
+Element["" "0805.fp" "L1" "unknown" 17.0441mm 12.9640mm 31.50mil 31.50mil 2 100 ""]
 (
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
@@ -904,7 +904,7 @@ Element["" "0805.fp" "L1" "unknown" 17.0441mm 11.2140mm 31.50mil 31.50mil 2 100 
 
 	)
 
-Element["" "0805.fp" "C6" "100_nF" 13.0441mm 14.9640mm 31.50mil 31.50mil 2 100 ""]
+Element["" "0805.fp" "C6" "100_nF" 13.0441mm 16.7140mm 31.50mil 31.50mil 2 100 ""]
 (
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
@@ -913,7 +913,7 @@ Element["" "0805.fp" "C6" "100_nF" 13.0441mm 14.9640mm 31.50mil 31.50mil 2 100 "
 
 	)
 
-Element["" "0805.fp" "C5" "100_nF" 17.2941mm 13.2140mm 31.50mil 31.50mil 2 100 ""]
+Element["" "0805.fp" "C5" "100_nF" 680.87mil 14.9640mm 31.50mil 31.50mil 2 100 ""]
 (
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
@@ -922,7 +922,7 @@ Element["" "0805.fp" "C5" "100_nF" 17.2941mm 13.2140mm 31.50mil 31.50mil 2 100 "
 
 	)
 
-Element["" "0805.fp" "C4" "1_uF" 17.2941mm 15.2140mm 31.50mil 31.50mil 2 100 ""]
+Element["" "0805.fp" "C4" "1_uF" 680.87mil 16.9640mm 31.50mil 31.50mil 2 100 ""]
 (
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
@@ -931,7 +931,7 @@ Element["" "0805.fp" "C4" "1_uF" 17.2941mm 15.2140mm 31.50mil 31.50mil 2 100 ""]
 
 	)
 
-Element["" "0805.fp" "C1" "10_uF" 17.0441mm 3.2140mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0805.fp" "C1" "10_uF" 18.0000mm 4.0000mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
@@ -940,7 +940,7 @@ Element["" "0805.fp" "C1" "10_uF" 17.0441mm 3.2140mm -31.50mil -31.50mil 0 100 "
 
 	)
 
-Element["" "0805.fp" "C3" "100_nF" 28.6940mm 13.9640mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0805.fp" "C3" "100_nF" 28.6940mm 15.7140mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[-0.7069mm 0.5658mm -0.5658mm 0.7069mm 51.18mil 20.00mil 57.18mil "1" "1" "square,edge2"]
 	Pad[0.5658mm -0.7069mm 0.7069mm -0.5658mm 51.18mil 20.00mil 57.18mil "2" "2" "square"]
@@ -949,7 +949,7 @@ Element["" "0805.fp" "C3" "100_nF" 28.6940mm 13.9640mm -31.50mil -31.50mil 0 100
 
 	)
 
-Element["" "0805.fp" "C2" "100_nF" 19.1940mm 4.4640mm 31.50mil 31.50mil 2 100 ""]
+Element["" "0805.fp" "C2" "100_nF" 19.1940mm 6.2140mm 31.50mil 31.50mil 2 100 ""]
 (
 	Pad[0.5658mm -0.7069mm 0.7069mm -0.5658mm 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[-0.7069mm 0.5658mm -0.5658mm 0.7069mm 51.18mil 20.00mil 57.18mil "2" "2" "square,edge2"]
@@ -957,36 +957,36 @@ Element["" "0805.fp" "C2" "100_nF" 19.1940mm 4.4640mm 31.50mil 31.50mil 2 100 ""
 	ElementLine [-0.4242mm -0.5654mm -0.5654mm -0.4242mm 8.00mil]
 
 	)
-Rat[16.1442mm 3.1142mm 0 13.5560mm 3.5370mm 0  ""]
-Rat[16.1442mm 3.1142mm 0 19.7598mm 3.7571mm 0  ""]
-Rat[19.7598mm 3.7571mm 0 21.1999mm 4.6501mm 0  ""]
-Rat[13.5560mm 3.5370mm 0 13.5560mm 11.6650mm 0  ""]
-Rat[13.5560mm 11.6650mm 0 13.9440mm 14.8642mm 0  ""]
-Rat[13.9440mm 14.8642mm 0 18.1940mm 15.1142mm 0  ""]
-Rat[18.1940mm 15.1142mm 0 18.1940mm 13.1142mm 0  ""]
-Rat[18.1940mm 13.1142mm 0 26.8001mm 13.8499mm 0  ""]
-Rat[26.8001mm 13.8499mm 0 28.1282mm 14.6709mm 0  ""]
-Rat[13.5560mm 3.5370mm 0 4.2500mm 4.2500mm 5  ""]
+Rat[17.1001mm 153.55mil 0 13.5560mm 5.2870mm 0  ""]
+Rat[17.1001mm 153.55mil 0 19.7598mm 5.5071mm 0  ""]
+Rat[19.7598mm 5.5071mm 0 21.1999mm 6.4001mm 0  ""]
+Rat[13.5560mm 5.2870mm 0 13.5560mm 13.4150mm 0  ""]
+Rat[13.5560mm 13.4150mm 0 13.9440mm 16.6142mm 0  ""]
+Rat[13.9440mm 16.6142mm 0 716.30mil 16.8642mm 0  ""]
+Rat[716.30mil 16.8642mm 0 716.30mil 14.8642mm 0  ""]
+Rat[716.30mil 14.8642mm 0 26.8001mm 15.5999mm 0  ""]
+Rat[26.8001mm 15.5999mm 0 28.1282mm 16.4209mm 0  ""]
+Rat[13.5560mm 5.2870mm 0 4.2500mm 4.2500mm 5  ""]
 Rat[4.2500mm 4.2500mm 5 1.7100mm 9.7100mm 5  ""]
 Rat[1.7100mm 9.7100mm 5 1.7100mm 12.2500mm 5  ""]
 Rat[1.7100mm 12.2500mm 5 1.7100mm 17.3300mm 5  ""]
-Rat[14.8560mm 3.5370mm 0 14.8560mm 5.8845mm 0  ""]
-Rat[14.8560mm 5.8845mm 0 19.4001mm 7.2500mm 0  ""]
-Rat[14.8560mm 11.6650mm 0 14.8560mm 9.6945mm 0  ""]
-Rat[14.8560mm 9.6945mm 0 19.4001mm 8.0501mm 0  ""]
-Rat[12.1442mm 14.8642mm 0 4.2500mm 17.3300mm 5  ""]
-Rat[12.1442mm 14.8642mm 0 19.4001mm 8.8499mm 0  ""]
-Rat[16.3942mm 15.1142mm 0 16.3942mm 13.1142mm 0  ""]
-Rat[16.3942mm 13.1142mm 0 16.1442mm 11.1142mm 0  ""]
-Rat[16.1442mm 11.1142mm 0 19.4001mm 9.6501mm 0  ""]
-Rat[4.2500mm 7.1700mm 5 28.5999mm 7.2500mm 0  ""]
-Rat[4.2500mm 9.7100mm 5 28.5999mm 6.4499mm 0  ""]
-Rat[17.9440mm 3.1142mm 0 18.6282mm 5.1709mm 0  ""]
-Rat[18.6282mm 5.1709mm 0 19.4001mm 6.4502mm 0  ""]
-Rat[19.4001mm 6.4502mm 0 17.9440mm 11.1142mm 0  ""]
-Rat[17.9440mm 11.1142mm 0 28.5999mm 12.0498mm 0  ""]
-Rat[28.5999mm 12.0498mm 0 29.2598mm 13.2571mm 0  ""]
-Rat[17.9440mm 3.1142mm 0 1.7100mm 4.2500mm 5  ""]
+Rat[14.8560mm 5.2870mm 0 14.8560mm 7.6345mm 0  ""]
+Rat[14.8560mm 7.6345mm 0 19.4001mm 9.0000mm 0  ""]
+Rat[14.8560mm 13.4150mm 0 14.8560mm 11.4445mm 0  ""]
+Rat[14.8560mm 11.4445mm 0 19.4001mm 9.8001mm 0  ""]
+Rat[12.1442mm 16.6142mm 0 4.2500mm 17.3300mm 5  ""]
+Rat[12.1442mm 16.6142mm 0 19.4001mm 10.5999mm 0  ""]
+Rat[645.44mil 16.8642mm 0 645.44mil 14.8642mm 0  ""]
+Rat[645.44mil 14.8642mm 0 16.1442mm 12.8642mm 0  ""]
+Rat[16.1442mm 12.8642mm 0 19.4001mm 11.4001mm 0  ""]
+Rat[4.2500mm 7.1700mm 5 28.5999mm 9.0000mm 0  ""]
+Rat[4.2500mm 9.7100mm 5 28.5999mm 8.1999mm 0  ""]
+Rat[18.8999mm 153.55mil 0 18.6282mm 6.9209mm 0  ""]
+Rat[18.6282mm 6.9209mm 0 19.4001mm 8.2002mm 0  ""]
+Rat[19.4001mm 8.2002mm 0 17.9440mm 12.8642mm 0  ""]
+Rat[17.9440mm 12.8642mm 0 28.5999mm 13.7998mm 0  ""]
+Rat[28.5999mm 13.7998mm 0 29.2598mm 15.0071mm 0  ""]
+Rat[18.8999mm 153.55mil 0 1.7100mm 4.2500mm 5  ""]
 Rat[1.7100mm 4.2500mm 5 1.7100mm 7.1700mm 5  ""]
 Layer(1 "top")
 (
