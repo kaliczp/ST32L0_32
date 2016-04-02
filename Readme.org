@@ -13,6 +13,15 @@
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 
+* Bugs
+
+** DONE BOOT0 to GND
+trough a 10k resistor. See the ref. design. Boot from Flash.
+
+** TODO GND PIN to the USART1
+
+** TODO Supply in is to close to SWD connector
+
 * Qestions
 
 - If I use internal temperature sensor to estimate the ambient
@@ -60,3 +69,4 @@ on tiping bucket.
 1 kg
 
 *** Soil temperature meter
+
