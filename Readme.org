@@ -17,10 +17,13 @@
 
 ** DONE BOOT0 to GND
 trough a 10k resistor. See the ref. design. Boot from Flash.
+Is there 10k resistor in 0805 package?
 
-** TODO GND PIN to the USART1
+** DONE GND PIN to the USART1
 
-** TODO Supply in is to close to SWD connector
+** TODO TX RX silkscreen
+
+** TODO Supply in is too close to SWD connector
 
 * Qestions
 
