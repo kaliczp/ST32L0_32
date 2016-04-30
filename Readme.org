@@ -21,9 +21,9 @@ Is there 10k resistor in 0805 package?
 
 ** DONE GND PIN to the USART1
 
-** TODO TX RX silkscreen
+** DONE TX RX silkscreen
 
-** TODO Supply in is too close to SWD connector
+** DONE Supply in is too close to SWD connector
 
 * Qestions
 
@@ -73,3 +73,4 @@ on tiping bucket.
 
 *** Soil temperature meter
 
+*** Humidity temperature meter
