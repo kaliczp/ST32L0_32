@@ -25,6 +25,11 @@ Is there 10k resistor in 0805 package?
 
 ** DONE Supply in is too close to SWD connector
 
+* Suggestions
+
+** TODO Connectors
+It would be nice to use unchangeable connectors.
+
 * Qestions
 
 - If I use internal temperature sensor to estimate the ambient
@@ -45,6 +50,7 @@ Is there 10k resistor in 0805 package?
   2.4 Ah at 2mA
 - STM32L0 debug OK?
   Through ARM SWDI works well.
+- FTDI serial converter 3.6 V tolerant?
 
 * Plan
 
