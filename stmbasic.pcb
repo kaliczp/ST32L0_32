@@ -5,11 +5,11 @@ FileVersion[20091103]
 
 PCB["" 38.0000mm 35.0000mm]
 
-Grid[984.251969 0.0000 0.0000 1]
+Grid[393.700787 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
-DRC[6.00mil 10.00mil 6.00mil 0.2000mm 13.00mil 7.00mil]
-Flags("nameonpcb,uniquename,clearnew,snappin,onlynames")
+DRC[0.1500mm 10.00mil 0.1500mm 0.2000mm 0.3000mm 0.1500mm]
+Flags("nameonpcb,uniquename,snappin,onlynames")
 Groups("1,2,3,4,c:5,6,7,8,s:9:10")
 Styles["Signal,0.3000mm,0.6000mm,0.3000mm,10.00mil:Power,25.00mil,0.6000mm,0.3000mm,10.00mil:Fat,0.5000mm,2.6000mm,2.0000mm,10.00mil:Skinny,0.1500mm,24.02mil,11.81mil,0.1500mm"]
 
@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mm")
-Attribute("PCB::grid::size" "0.2500mm")
+Attribute("PCB::grid::size" "0.1000mm")
 Via[23.4000mm 9.0000mm 0.6000mm 20.00mil 0.0000 0.3000mm "" ""]
 Via[24.7000mm 6.8000mm 0.6000mm 20.00mil 0.0000 0.3000mm "" ""]
 Via[25.9000mm 6.8000mm 0.6000mm 20.00mil 0.0000 0.3000mm "" ""]
@@ -1458,7 +1458,7 @@ Layer(11 "silk")
 Layer(12 "silk")
 (
 	Text[1.9000mm 7.1000mm 0 90 "Hvv Logger 0.3" "clearline"]
-	Text[1.9000mm 9.7000mm 0 90 "2016-04-30" "clearline"]
+	Text[1.9000mm 9.7000mm 0 90 "2016-06-05" "clearline"]
 	Text[16.5000mm 1.0000mm 0 90 "TX" "clearline"]
 	Text[13.5000mm 1.0000mm 0 90 "RX" "clearline"]
 	Text[30.7500mm 19.7500mm 0 90 "+" "clearline"]
