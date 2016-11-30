@@ -30,6 +30,9 @@ Is there 10k resistor in 0805 package?
 ** TODO Connectors
 It would be nice to use unchangeable connectors.
 
+** TODO Reset
+Somehow would be good to make reset or enough to use st-util?
+
 * Qestions
 
 - If I use internal temperature sensor to estimate the ambient
