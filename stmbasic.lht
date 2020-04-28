@@ -51,6 +51,7 @@ ha:pcb-rnd-board-v6 {
     offs_x = 0.0
     offs_y = 0.0
    }
+   board_name = STM32L0LQFP32
  }
 
  ha:data {
@@ -1054,7 +1055,7 @@ ha:pcb-rnd-board-v6 {
            x1=15.99977mm; y1=807.09mil; x2=15.99977mm; y2=814.95mil; thickness=8.0mil; clearance=0.0;
           }
           ha:text.66 {
-           string=%a.parent.refdes%; x=12.9999mm; y=21.400008mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=14.5999mm; y=24.300008mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -3459,7 +3460,7 @@ ha:pcb-rnd-board-v6 {
            x1=6.900078mm; y1=24.29977mm; x2=7.099722mm; y2=24.29977mm; thickness=8.0mil; clearance=0.0;
           }
           ha:text.357 {
-           string=%a.parent.refdes%; x=6.1998mm; y=24.7999mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=3.9998mm; y=22.8999mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -3801,7 +3802,7 @@ ha:pcb-rnd-board-v6 {
            x1=15.8758mm; y1=13.3346mm; x2=15.7346mm; y2=13.4758mm; thickness=8.0mil; clearance=0.0;
           }
           ha:text.401 {
-           string=%a.parent.refdes%; x=14.3213mm; y=11.6866mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=13.6213mm; y=12.3866mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -3972,7 +3973,7 @@ ha:pcb-rnd-board-v6 {
            x1=13.59977mm; y1=23.900178mm; x2=13.59977mm; y2=24.099822mm; thickness=8.0mil; clearance=0.0;
           }
           ha:text.423 {
-           string=%a.parent.refdes%; x=14.0999mm; y=24.8001mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=12.0999mm; y=27.9001mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -4308,7 +4309,7 @@ ha:pcb-rnd-board-v6 {
 
          li:objects {
           ha:text.467 {
-           string=%a.parent.refdes%; x=8.0999mm; y=13.2999mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=8.1999mm; y=13.3999mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -4693,7 +4694,7 @@ ha:pcb-rnd-board-v6 {
            x1=4.1057mm; y1=15.7839mm; x2=5.2995mm; y2=15.7839mm; thickness=8.0mil; clearance=0.0;
           }
           ha:text.499 {
-           string=%a.parent.refdes%; x=8.065mm; y=16.5618mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=2.365mm; y=17.2618mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -4961,7 +4962,7 @@ ha:pcb-rnd-board-v6 {
            x=26.413mm; y=7.9mm; width=25.0mil; height=25.0mil; astart=270; adelta=180; thickness=10.0mil; clearance=0.0;
           }
           ha:text.544 {
-           string=%a.parent.refdes%; x=25.524mm; y=7.392mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=28.024mm; y=5.792mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -5627,7 +5628,7 @@ ha:pcb-rnd-board-v6 {
            x=18.738334mm; y=16.338334mm; width=10.0mil; height=10.0mil; astart=0; adelta=360; thickness=8.0mil; clearance=0.0;
           }
           ha:text.582 {
-           string=%a.parent.refdes%; x=20.892mm; y=17.476mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=19.592mm; y=20.176mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -5798,7 +5799,7 @@ ha:pcb-rnd-board-v6 {
            x1=11.900178mm; y1=9.80023mm; x2=12.099822mm; y2=9.80023mm; thickness=8.0mil; clearance=0.0;
           }
           ha:text.644 {
-           string=%a.parent.refdes%; x=559.0511811mil; y=362.2007874mil; scale=100; fid=0;
+           string=%a.parent.refdes%; x=13.9999mm; y=362.2007874mil; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -7887,8 +7888,8 @@ ha:pcb-rnd-board-v6 {
         }
         rot = 0.000000
        }
-       ha:text.1466 {
-        string=+; x=30.75mm; y=19.75mm; scale=90; fid=0;
+       ha:text.2340 {
+        string=+; x=30.45mm; y=19.25mm; scale=150; fid=0;
         ha:flags {
          clearline=1
         }
@@ -10196,6 +10197,7 @@ ha:pcb-rnd-board-v6 {
     description = false
     local_ref = false
     show_drc = false
+     buffer_number = 0
    }
    ha:plugins {
     ha:mincut {
