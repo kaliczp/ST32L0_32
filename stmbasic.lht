@@ -1904,7 +1904,7 @@ ha:pcb-rnd-board-v6 {
            x1=34.13mm; y1=13.25mm; x2=34.13mm; y2=10.71mm; thickness=10.0mil; clearance=0.0;
           }
           ha:text.138 {
-           string=%a.parent.refdes%; x=29.62mm; y=4.94mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=28.42mm; y=5.14mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
