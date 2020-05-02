@@ -5054,7 +5054,7 @@ ha:pcb-rnd-board-v6 {
            x1=26.413mm; y1=8.535mm; x2=26.413mm; y2=11.837mm; thickness=10.0mil; clearance=0.0;
           }
           ha:arc.568 {
-           x=26.413mm; y=7.9mm; width=25.0mil; height=25.0mil; astart=270; adelta=180; thickness=10.0mil; clearance=0.0;
+           x=26.413mm; y=7.9mm; width=25.0mil; height=25.0mil; astart=270.000000; adelta=180.000000; thickness=10.0mil; clearance=0.0;
           }
           ha:text.544 {
            string=%a.parent.refdes%; x=28.024mm; y=5.792mm; scale=100; fid=0;
@@ -5720,7 +5720,7 @@ ha:pcb-rnd-board-v6 {
            x1=18.001734mm; y1=16.338334mm; x2=18.738334mm; y2=15.601734mm; thickness=8.0mil; clearance=0.0;
           }
           ha:arc.630 {
-           x=18.738334mm; y=16.338334mm; width=10.0mil; height=10.0mil; astart=0; adelta=360; thickness=8.0mil; clearance=0.0;
+           x=18.738334mm; y=16.338334mm; width=10.0mil; height=10.0mil; astart=0.000000; adelta=360.000000; thickness=8.0mil; clearance=0.0;
           }
           ha:text.582 {
            string=%a.parent.refdes%; x=19.592mm; y=20.176mm; scale=100; fid=0;
@@ -10734,6 +10734,8 @@ ha:pcb-rnd-board-v6 {
     local_ref = false
     show_drc = false
      buffer_number = 0
+      subc_id = %a.refdes%
+      term_id = %a.term%
    }
    ha:plugins {
     ha:mincut {
