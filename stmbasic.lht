@@ -1485,16 +1485,16 @@ ha:pcb-rnd-board-v6 {
 
          li:objects {
           ha:line.113 {
-           x1=31.63mm; y1=18.18mm; x2=36.71mm; y2=18.18mm; thickness=15.0mil; clearance=0.0;
+           x1=31.63mm; y1=18.18mm; x2=36.71mm; y2=18.18mm; thickness=10.0mil; clearance=0.0;
           }
           ha:line.116 {
-           x1=31.63mm; y1=18.18mm; x2=31.63mm; y2=20.72mm; thickness=15.0mil; clearance=0.0;
+           x1=31.63mm; y1=18.18mm; x2=31.63mm; y2=20.72mm; thickness=10.0mil; clearance=0.0;
           }
           ha:line.119 {
-           x1=31.63mm; y1=20.72mm; x2=36.71mm; y2=20.72mm; thickness=15.0mil; clearance=0.0;
+           x1=31.63mm; y1=20.72mm; x2=36.71mm; y2=20.72mm; thickness=10.0mil; clearance=0.0;
           }
           ha:line.122 {
-           x1=36.71mm; y1=18.18mm; x2=36.71mm; y2=20.72mm; thickness=15.0mil; clearance=0.0;
+           x1=36.71mm; y1=18.18mm; x2=36.71mm; y2=20.72mm; thickness=10.0mil; clearance=0.0;
           }
           ha:text.110 {
            string=%a.parent.refdes%; x=32.7204mm; y=16.2504mm; scale=117; fid=0;
