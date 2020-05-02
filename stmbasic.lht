@@ -3384,7 +3384,7 @@ ha:pcb-rnd-board-v6 {
            x1=25.9346mm; y1=13.5758mm; x2=26.0758mm; y2=13.4346mm; thickness=8.0mil; clearance=0.0;
           }
           ha:text.335 {
-           string=%a.parent.refdes%; x=28.3969mm; y=12.917mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=27.5969mm; y=13.817mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -4239,7 +4239,7 @@ ha:pcb-rnd-board-v6 {
            x1=26.99663mm; y1=10.004822mm; x2=26.99663mm; y2=9.805178mm; thickness=8.0mil; clearance=0.0;
           }
           ha:text.445 {
-           string=%a.parent.refdes%; x=29.0049mm; y=9.1033mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=28.6049mm; y=10.5033mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
