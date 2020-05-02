@@ -15,15 +15,8 @@
 
 * Bugs
 
-** DONE BOOT0 to GND
-trough a 10k resistor. See the ref. design. Boot from Flash.
-Is there 10k resistor in 0805 package?
-
-** DONE GND PIN to the USART1
-
-** DONE TX RX silkscreen
-
-** DONE Supply in is too close to SWD connector
+** TODO GND PIN to the USART1
+Earlier included now neccessary?
 
 * Suggestions
 
@@ -42,22 +35,10 @@ is not easily solderable.
 - If I use internal temperature sensor to estimate the ambient
   environment temperature is it necessary to use ferrite bead?
   I will use it.
-- How connect design to ST-LINK?
-  I will use HEADER10_2 more-or-less standard
-- Which pins are SPI capable?
-  PB3:PB5
-- Which pins are (low power) USART capable?
-  STM32L051K8Tx has no LPUART. PB6:PB7 seems to best.
-  In the case hardware flow control PA8:PA12
-- How can I set up external interrupt?
-  PA0 or any GPIO_EXTI pins
 - Type and voltage characteristic of Li-ion primary battery?
   3.6V Lithium Thionyl Chloride (Li-SOCl2) Batterie
   XENO XL-060F [[http://www.xenoenergy.com/eng/prod/genaral03.asp]]
   2.4 Ah at 2mA
-- STM32L0 debug OK?
-  Through ARM SWDI works well.
-- FTDI serial converter 3.6 V tolerant?
 
 * Plan
 
