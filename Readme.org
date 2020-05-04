@@ -13,6 +13,8 @@
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 
+* Software
+The software available at [[https://github.com/kaliczp/hvlog]].
 * Bugs
 
 ** TODO GND PIN to the USART1
